@@ -1,0 +1,20 @@
+{
+  "name": "package-fth",
+  "main": "./lib/package-fth",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [
+  ],
+  "activationCommands": {
+    "atom-workspace": "package-fth:toggle"
+  },
+  "activationEvents": ["ascii-art-js:convert"],  
+  "repository": "https://github.com/atom/package-fth",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "figlet": "1.0.8"
+  }
+}
